@@ -1,0 +1,40 @@
+.upload-area {
+    position: relative;
+    padding: 2rem;
+    border: 2px dashed rgba(255, 255, 255, 0.2);
+    border-radius: 1rem;
+    background: rgba(255, 255, 255, 0.05);
+    transition: all 0.3s ease;
+}
+
+.upload-area.drag-over {
+    border-color: rgba(255, 255, 255, 0.8);
+    background: rgba(255, 255, 255, 0.1);
+    transform: scale(1.02);
+}
+
+.upload-area::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 1rem;
+    background: var(--primary-gradient);
+    opacity: 0;
+    z-index: -1;
+    transition: opacity 0.3s ease;
+}
+
+.upload-area.drag-over::after {
+    opacity: 0.1;
+}
+
+.upload-area * {
+    pointer-events: none;
+}
+
+.upload-area input[type="file"] {
+    pointer-events: all;
+}

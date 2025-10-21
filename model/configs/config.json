@@ -1,0 +1,23 @@
+{
+  "experiment_name": "CRNN_h128",
+  "model_type": "CRNN",
+  "num_epochs": 100,
+  "batch_size": 64,
+  "learning_rate": 0.001,
+  
+  "image_height": 32,
+  "image_width": 128,
+  "num_channels": 1,
+  
+  "num_classes": 80,
+  "char_list": " !\"#&'()*+,-./0123456789:;?ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz",
+  
+  "model_path": "model/models/best_model",
+  "checkpoint_dir": "model/experiments/CRNN_h128/",
+  
+  "data_path": "data/",
+  "train_data": "train.txt",
+  "val_data": "val.txt",
+  "test_data": "test.txt"
+}
+

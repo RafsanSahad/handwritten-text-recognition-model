@@ -1,6 +1,6 @@
 # 🖋️ Handwriting Recognition Web App
 
-A beautiful, fully offline Flask web application for handwriting recognition using a pretrained CRNN (Convolutional Recurrent Neural Network) model from the [arshjot/Handwritten-Text-Recognition](https://github.com/arshjot/Handwritten-Text-Recognition) repository.
+A beautiful, fully offline Flask web application for handwriting recognition using a pretrained CRNN (Convolutional Recurrent Neural Network) model from the [arshjot/Handwritten-Text-Recognition](https://github.com/arshjot/Handwritten-Text-Recognition) repository. Now a more improved version with ui.
 
 ![Python](https://img.shields.io/badge/Python-3.7+-blue.svg)
 ![Flask](https://img.shields.io/badge/Flask-2.3.3-green.svg)
@@ -290,5 +290,6 @@ rafsansahad07@gmail.com
 For questions, issues, or suggestions, please open an issue on GitHub.
 
 ---
+
 
 

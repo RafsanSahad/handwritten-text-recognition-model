@@ -285,10 +285,10 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - [TensorFlow](https://www.tensorflow.org/) - Deep learning framework
 
 ## 📧 Contact
+rafsansahad07@gmail.com
 
 For questions, issues, or suggestions, please open an issue on GitHub.
 
 ---
 
-**Made with ❤️ and AI**
 

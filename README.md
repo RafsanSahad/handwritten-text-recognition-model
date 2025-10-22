@@ -62,11 +62,11 @@ handwriting_app/
 
 1. **Clone this repository:**
    ```bash
-   git clone <your-repo-url>
+   git clone https://github.com/RafsanSahad/handwritten-text-recognition-model.git
    cd handwriting_app
    ```
 
-2. **Install Python dependencies:**
+2. **Install Python Cuda dependencies:**
    ```bash
    pip install -r requirements.txt
    ```
@@ -290,6 +290,7 @@ rafsansahad07@gmail.com
 For questions, issues, or suggestions, please open an issue on GitHub.
 
 ---
+
 
 
 
